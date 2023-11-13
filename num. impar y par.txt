@@ -1,0 +1,9 @@
+print ("Introduce un numero")
+let i = readLine()!
+let numero : Int = Int(i)!
+
+    if numero%2 == 0{
+        print("Es par \(numero)")
+    } else {
+        print("Es impar \(numero)")
+    }
